@@ -1,10 +1,9 @@
 #include <iostream>
-#include "Matchup.h"
 #include <unordered_map>
 #include <iomanip>
-#include "Team.h"
-#include "Bracket.h"
-
+#include "Bracket.cpp"
+#include "Team.cpp"
+#include "Matchup.cpp"
 using namespace std;
 
 // NOTE a higher seed means a lower number. The #1 seed is a higher seed than the #16 seed. This can sometimes be confusing...
